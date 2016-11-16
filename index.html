@@ -4,22 +4,53 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
+
 <body>
+
     <div class="container">
         <h2>Olha nóis ai gente!</h2>
         <img class="img-responsive" src="img/empresa.jpg">
 
+        <div class="panel-group" id="grupo-sempre">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 data-toggle="collapse" data-target="#first" data-parent="#grupo-sempre">Desde sempre</h3>
+                </div>
+                <div  id="first" class="collapse">
+                    <div class="panel-body">
+                        <p>Temos como principal objetivo ser lembrados pelo volte sempre</p>
+                    </div>
+                </div>
+            </div>
 
-        <h2 data-toggle="collapse" data-target="#first">Desde sempre</h2>
-        <p id="first" class="collapse">Temos como principal objetivo ser lembrados pelo volte sempre</p>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 data-toggle="collapse" data-target="#second" data-parent="#grupo-sempre">Quase sempre</h3>
+                </div>
+                <div  id="second" class="collapse">
+                    <div class="panel-body">
+                        <p>Conseguimos ser lembrados...</p>
+                    </div>
+                </div>
+            </div>
 
-        <h2 data-toggle="collapse" data-target="#second">Quase sempre</h2>
-        <p id="second" class="collapse">Conseguimos ser lembrados...</p>
-
-        <h2 data-toggle="collapse" data-target="#third">Nem tão sempre assim</h2>
-        <p id="third" class="collapse">Infelizmente não funciona assim e tamos ai pra aprender não é mesmo...?  </p>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 data-toggle="collapse" data-target="#third" data-parent="#grupo-sempre">Nem tão sempre assim</h3>
+                </div>
+                <div id="third" class="collapse">
+                    <div class="panel-body">
+                        <p>Infelizmente não funciona assim e tamos ai pra aprender não é mesmo...?  </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <h2>Óia o que nóis faiz aqui</h2>
+    <img class="img-responsive" src="img/projetos/casa-castelo.png">
 
     <script src="jquery.slim.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
