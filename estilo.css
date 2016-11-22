@@ -63,3 +63,23 @@ header h1{
     margin-top: 0;
     margin-bottom: 0;
 }
+
+@media(min-width: 768px){
+    #grupo-sempre {
+        margin-top: 0;
+    }
+}
+
+@media(min-width:992px) {
+    .pedreiros-banner {
+        left: 0;
+        transform: translate(0, -80%);
+        width: 50%;
+    }
+    .container
+
+    .pedreiros-bannerWrapper {
+        position: relative;
+        height: 100%;
+    }
+}

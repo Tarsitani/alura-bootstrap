@@ -9,73 +9,78 @@
 
 <body>
 
-<header>
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
 
-                <a class="navbar-brand" href="#">Pedreiros Zika</a>
+                    <a class="navbar-brand" href="#">Pedreiros Zika</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="collapse-navbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#sobre-nos">Sobre nós</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a href="#video">Video</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
             </div>
+        </nav>
 
-            <div class="collapse navbar-collapse" id="collapse-navbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="#sobre-nos">Sobre nós</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#depoimentos">Depoimentos</a></li>
-                    <li><a href="#video">Video</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
+        <div class="container pedreiros-bannerWrapper">
+            <div class="pedreiros-banner">
+                <h1>Pedreiros Zika</h1>
+                <p>Botando tijolo em cima de tijolo desde quando me conheço por gente</p>
+                <button class="btn btn-primary btn-lg"> Entra em contato co nóis</button>
             </div>
         </div>
-    </nav>
-
-    <div class="pedreiros-banner">
-        <h1>Pedreiros Zika</h1>
-        <p>Botando tijolo em cima de tijolo desde quando me conheço por gente</p>
-        <button class="btn btn-primary btn-lg"> Entra em contato co nóis</button>
-    </div>
-</header>
+    </header>
 
     <section id="sobre-nos" class="container">
         <h2>Olha nóis ai gente!</h2>
-        <img class="img-responsive" src="img/empresa.jpg">
 
-        <div class="panel-group" id="grupo-sempre">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 data-toggle="collapse" data-target="#first" data-parent="#grupo-sempre">Desde sempre</h3>
-                </div>
-                <div  id="first" class="collapse">
-                    <div class="panel-body">
-                        <p>Temos como principal objetivo ser lembrados pelo volte sempre</p>
+        <div class="row">
+            <img class="img-responsive col-sm-6" src="img/empresa.jpg">
+
+            <div class="panel-group col-sm-6" id="grupo-sempre">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 data-toggle="collapse" data-target="#first" data-parent="#grupo-sempre">Desde sempre</h3>
+                    </div>
+                    <div  id="first" class="collapse">
+                        <div class="panel-body">
+                            <p>Temos como principal objetivo ser lembrados pelo volte sempre</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 data-toggle="collapse" data-target="#second" data-parent="#grupo-sempre">Quase sempre</h3>
-                </div>
-                <div  id="second" class="collapse">
-                    <div class="panel-body">
-                        <p>Conseguimos ser lembrados...</p>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 data-toggle="collapse" data-target="#second" data-parent="#grupo-sempre">Quase sempre</h3>
+                    </div>
+                    <div  id="second" class="collapse">
+                        <div class="panel-body">
+                            <p>Conseguimos ser lembrados...</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 data-toggle="collapse" data-target="#third" data-parent="#grupo-sempre">Nem tão sempre assim</h3>
-                </div>
-                <div id="third" class="collapse">
-                    <div class="panel-body">
-                        <p>Infelizmente não funciona assim e tamos ai pra aprender não é mesmo...?  </p>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 data-toggle="collapse" data-target="#third" data-parent="#grupo-sempre">Nem tão sempre assim</h3>
+                    </div>
+                    <div id="third" class="collapse">
+                        <div class="panel-body">
+                            <p>Infelizmente não funciona assim e tamos ai pra aprender não é mesmo...?  </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -92,130 +97,146 @@
     <section id="projetos" class="container">
         <h2>Óia o que nóis faiz aqui</h2>
 
-        <figure class="thumbnail">
-          <img src="img/projetos/casa-castelo.png" alt="casa castelo">
-          <figcaption class="caption">
-            <h3>Casa Castelo</h3>
-            <p>Uma casa que é tipo um castelo</p>
-          </figcaption>
-        </figure>
-
-        <figure class="thumbnail">
-          <img src="img/projetos/mercado-marapira.png" alt="mercado marapira">
-          <figcaption class="caption">
-            <h3>Mercado marapira</h3>
-            <p>Mercado brisa pra caralho...</p>
-          </figcaption>
-        </figure>
-
-        <figure class="thumbnail">
-          <img src="img/projetos/palacio-dionisio.png" alt="palacio dionisio">
-          <figcaption class="caption">
-            <h3>Palacio Dionisio</h3>
-            <p>Olha, não sei não, mas deve rolar uma putaria ai</p>
-          </figcaption>
-        </figure>
-
-        <figure class="thumbnail">
-          <img src="img/projetos/residencia-ludi.png" alt="residencia ludi">
-          <figcaption class="caption">
-            <h3>Residencia Ludi</h3>
-            <p>Também não sei o que é Ludi, relaxa</p>
-          </figcaption>
-        </figure>
-    </section>
-
-    <section id="depoimentos">
-        <h2 class="titulo-depoimentos container">Depoimentos dos Josés</h2>
-
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <img src="img/depoimentos/projetos0.png">
-              <div class="carousel-caption">
-                <h3>Rafael Larthran</h3>
-                <p>Curti como combinou com a paisagem</p>
-              </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                  <img src="img/projetos/casa-castelo.png" alt="casa castelo">
+                  <figcaption class="caption">
+                    <h3>Casa Castelo</h3>
+                    <p>Uma casa que é tipo um castelo</p>
+                  </figcaption>
+                </figure>
             </div>
-            <div class="item">
-              <img src="img/depoimentos/projetos1.png">
-              <div class="carousel-caption">
-                <h3>Mauricio Maukfoy</h3>
-                <p>Puta vida!</p>
-              </div>
-            </div>
-            <div class="item">
-              <img src="img/depoimentos/projetos2.png">
-              <div class="carousel-caption">
-                <h3>Thales Viking</h3>
-                <p>Perfeita para eu findar meus dias na Terra</p>
-              </div>
-            </div>
-          </div>
 
-          <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                  <img src="img/projetos/mercado-marapira.png" alt="mercado marapira">
+                  <figcaption class="caption">
+                    <h3>Mercado marapira</h3>
+                    <p>Mercado brisa pra caralho...</p>
+                  </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                  <img src="img/projetos/palacio-dionisio.png" alt="palacio dionisio">
+                  <figcaption class="caption">
+                    <h3>Palacio Dionisio</h3>
+                    <p>Olha, não sei não, mas deve rolar uma putaria ai</p>
+                  </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                  <img src="img/projetos/residencia-ludi.png" alt="residencia ludi">
+                  <figcaption class="caption">
+                    <h3>Residencia Ludi</h3>
+                    <p>Também não sei o que é Ludi, relaxa</p>
+                  </figcaption>
+                </figure>
+            </div>
         </div>
     </section>
 
-    <section id="video" class="container">
-        <h3>Vídeo maneiro pra entreter o público (ponha o fone)</h3>
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/xlcywgEMuGI" frameborder="0" allowfullscreen></iframe>
+    <div class="container">
+        <section id="depoimentos">
+            <h2 class="titulo-depoimentos">Depoimentos dos Josés</h2>
+
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="img/depoimentos/projetos0.png">
+                  <div class="carousel-caption">
+                    <h3>Rafael Larthran</h3>
+                    <p>Curti como combinou com a paisagem</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="img/depoimentos/projetos1.png">
+                  <div class="carousel-caption">
+                    <h3>Mauricio Maukfoy</h3>
+                    <p>Puta vida!</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="img/depoimentos/projetos2.png">
+                  <div class="carousel-caption">
+                    <h3>Thales Viking</h3>
+                    <p>Perfeita para eu findar meus dias na Terra</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </section>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <section id="video" class="col-sm-6">
+                <h3>Vídeo maneiro pra entreter o público (ponha o fone)</h3>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xlcywgEMuGI" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </section>
+
+            <section id="contato" class="col-sm-6">
+                <h2>Contato</h2>
+                <p>Manda uma mensagem ae</p>
+
+                <form>
+                    <div class="form-group">
+                        <label for="contato-nome">Nome: </label>
+                        <input class="form-control" id="contato-nome" type="text" placeholder="José">
+                    </div>
+                    <div class="form-group">
+                        <label for="contato-email">Email: </label>
+                        <div class="input-group">
+                            <div class="input-group-addon">@</div>
+                            <input class="form-control" id="contato-email" type="email" placeholder="josé.suna@suna.com">
+                        </div>
+                    </div>
+                    <div class="grupo-radio">
+                        <div class="radio">
+                            <label><input type="radio" name="tipo-pessoa" checked>Pessoa Física</label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="tipo-pessoa">Pessoa Imaginária</label>
+                        </div>
+                    </div><!--
+
+                    --><select class="form-control grupo-option">
+                        <option disabled selected>Tipo de Situação</option>
+                        <option>Pobre</option>
+                        <option>Só o relo</option>
+                        <option>Prefiro nem comentar...</option>
+                    </select>
+
+                    <button class="btn btn-primary" type="button">Enviar</button>
+
+                </form>
+            </section>
         </div>
-    </section>
-
-    <section id="contato" class="container">
-        <h2>Contato</h2>
-        <p>Manda uma mensagem ae</p>
-
-        <form>
-            <div class="form-group">
-                <label for="contato-nome">Nome: </label>
-                <input class="form-control" id="contato-nome" type="text" placeholder="José">
-            </div>
-            <div class="form-group">
-                <label for="contato-email">Email: </label>
-                <div class="input-group">
-                    <div class="input-group-addon">@</div>
-                    <input class="form-control" id="contato-email" type="email" placeholder="josé.suna@suna.com">
-                </div>
-            </div>
-            <div class="grupo-radio">
-                <div class="radio">
-                    <label><input type="radio" name="tipo-pessoa" checked>Pessoa Física</label>
-                </div>
-                <div class="radio">
-                    <label><input type="radio" name="tipo-pessoa">Pessoa Imaginária</label>
-                </div>
-            </div><!--
-
-            --><select class="form-control grupo-option">
-                <option disabled selected>Tipo de Situação</option>
-                <option>Pobre</option>
-                <option>Só o relo</option>
-                <option>Prefiro nem comentar...</option>
-            </select>
-
-            <button class="btn btn-primary" type="button">Enviar</button>
-
-        </form>
-    </section>
+    </div>
 
     <footer>
         <address>
